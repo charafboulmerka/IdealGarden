@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "667083056381",
+    "firebase_url": "https://ideal-garden-5b5d0-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "ideal-garden-5b5d0",
+    "storage_bucket": "ideal-garden-5b5d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667083056381:android:2f9fa38dcdb71d03e6ca94",
+        "android_client_info": {
+          "package_name": "com.f08.serinem2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667083056381-8dhdj9f8gg9qj93sc43qp4ovqj48djur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByqJZuUHjxs8gqYUKWjHix-5vE0LTD5oQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667083056381-8dhdj9f8gg9qj93sc43qp4ovqj48djur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

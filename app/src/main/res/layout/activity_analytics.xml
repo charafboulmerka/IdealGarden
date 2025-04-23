@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/analytics_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F3F2F2"
+    tools:context=".AnalyticsActivity">
+
+    <include layout="@layout/header"/>
+
+    <LinearLayout
+        android:id="@+id/analytics_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.87"
+        android:visibility="visible"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="30dp"
+                android:gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="15dp"
+                    android:background="@drawable/logo"
+                    android:layout_gravity="center"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Humidity: "
+                        android:gravity="left|center"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/steps_font_size"
+                        android:textColor="@color/black"
+                        android:layout_margin="3dp"/>
+                    <TextView
+                        android:id="@+id/tv_humidity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="..."
+                        android:gravity="left|center"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/steps_font_size"
+                        android:textColor="@color/md_green_100"
+                        android:layout_margin="3dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Temperature: "
+                        android:gravity="left|center"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/steps_font_size"
+                        android:textColor="@color/black"
+                        android:layout_margin="3dp"/>
+                    <TextView
+                        android:id="@+id/tv_temperature"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="..."
+                        android:gravity="left|center"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/steps_font_size"
+                        android:textColor="@color/md_green_100"
+                        android:layout_margin="3dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="La pelouse: "
+                        android:gravity="left|center"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/steps_font_size"
+                        android:textColor="@color/black"
+                        android:layout_margin="3dp"/>
+                    <TextView
+                        android:id="@+id/tv_soil"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="..."
+                        android:gravity="left|center"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/steps_font_size"
+                        android:textColor="@color/md_green_100"
+                        android:layout_margin="3dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Les lampadaires 1: "
+                        android:gravity="left|center"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/steps_font_size"
+                        android:textColor="@color/black"
+                        android:layout_margin="3dp"/>
+                    <TextView
+                        android:id="@+id/tv_lamps1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="..."
+                        android:gravity="left|center"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/steps_font_size"
+                        android:textColor="@color/md_green_100"
+                        android:layout_margin="3dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Les lampadaires 2: "
+                        android:gravity="left|center"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/steps_font_size"
+                        android:textColor="@color/black"
+                        android:layout_margin="3dp"/>
+                    <TextView
+                        android:id="@+id/tv_lamps2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="..."
+                        android:gravity="left|center"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/steps_font_size"
+                        android:textColor="@color/md_green_100"
+                        android:layout_margin="3dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="la porte: "
+                        android:gravity="left|center"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/steps_font_size"
+                        android:textColor="@color/black"
+                        android:layout_margin="3dp"/>
+                    <TextView
+                        android:id="@+id/tv_door"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="..."
+                        android:gravity="left|center"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/steps_font_size"
+                        android:textColor="@color/md_green_100"
+                        android:layout_margin="3dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="La poubelle: "
+                        android:gravity="left|center"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/steps_font_size"
+                        android:textColor="@color/black"
+                        android:layout_margin="3dp"/>
+                    <TextView
+                        android:id="@+id/tv_trash"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="..."
+                        android:gravity="left|center"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/steps_font_size"
+                        android:textColor="@color/md_green_100"
+                        android:layout_margin="3dp"/>
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <include android:id="@+id/mLoading" layout="@layout/loading_screen" android:visibility="visible"/>
+
+</FrameLayout>
