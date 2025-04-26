@@ -97,6 +97,9 @@ The goal was to continue the development of a smart agriculture system by creati
   <img src="https://i.imgur.com/XspHdcD.jpeg" width="45%" />
   <img src="https://i.imgur.com/NFEfhwk.jpeg" width="45%" />
   <img src="https://i.imgur.com/jT137VU.jpeg" width="45%" />
+  <img src="https://i.imgur.com/uVFhSJb.jpeg" width="45%" />
+  <img src="https://i.imgur.com/2C0c2E6.jpeg" width="45%" />
+  <img src="https://i.imgur.com/9LU7MCO.jpeg" width="45%" />
 </p>
 
 ---
